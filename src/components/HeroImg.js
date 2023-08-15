@@ -9,11 +9,12 @@ const HeroImg = () => {
       <div className="mask">
         <img className="intro-img" src={IntroImg} alt="IntroImg" />
       </div>
-      <div className="new">
+     
       <div className="content">
         <p>HI, I'M RUTVIKA WAGH</p>
         <h1> A React Developer. </h1>
         <div>
+        
           <Link to="/project" className="btn">
             Projects
           </Link>
@@ -22,8 +23,9 @@ const HeroImg = () => {
           </Link>
         </div>
       </div>
-    </div>
-    </div>
+   </div>
+   
+  
   );
 };
 
