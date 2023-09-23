@@ -9,7 +9,8 @@
    z-index: 10;
 }
 .header-bg{
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.85);
+    transition: 0.5s;
 }
 .nav-menu{
     display:flex;
@@ -26,7 +27,7 @@ padding:0 1rem;
 }
 @media screen and (max-width:1040px){
 .nav-menu{
-    flex-direction:column;
+    flex-direction:column; 
     justify-content:center;
     align-items:center;
     width: 100%;

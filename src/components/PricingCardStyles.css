@@ -1,0 +1,34 @@
+.pricing{
+    width: 100%;
+    padding: 6rem 1rem;
+    background: black;
+}
+.card-container{
+    
+position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+    
+   /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 40px;*/
+}
+.card{
+    border: solid;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+
+}
+.card:hover{
+    background-color: rgb(142, 103, 143);
+}
+@media screen and (max-width:740px) {
+    .card-container{
+        top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    }
+}
